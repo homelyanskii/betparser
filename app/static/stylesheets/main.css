@@ -66,8 +66,8 @@ html {
 }
 
 .bet-parser-main {
-    width: 1000px;
-    height: auto;
+    width: 75%;
+    min-height: calc(100vh - 120px);
     margin: 10px auto;
 }
 
@@ -88,9 +88,17 @@ html {
     border: 1px solid #ffffff;
 }
 
+.bet-parser-table-header-odds {
+    padding: 10px 0!important;
+}
+
+#bet365-logo, #pm-logo {
+    width: 65px;
+}
+
 td {
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif; 
     padding: 5px 0;
 }
 
@@ -109,7 +117,6 @@ td {
 .match-name {
     padding-left: 15px;
     text-align: left;
-    
 }
 
 .bet-parser-footer {
